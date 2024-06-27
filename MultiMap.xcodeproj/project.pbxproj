@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6E0A9A62C2DBD9A00DBFC29 /* MultiMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0A9A52C2DBD9A00DBFC29 /* MultiMapApp.swift */; };
+		B6E0A9A82C2DBD9A00DBFC29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0A9A72C2DBD9A00DBFC29 /* ContentView.swift */; };
+		B6E0A9AA2C2DBD9C00DBFC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E0A9A92C2DBD9C00DBFC29 /* Assets.xcassets */; };
+		B6E0A9AD2C2DBD9C00DBFC29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E0A9AC2C2DBD9C00DBFC29 /* Preview Assets.xcassets */; };
+		B6E0A9B82C2DBD9D00DBFC29 /* MultiMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0A9B72C2DBD9D00DBFC29 /* MultiMapTests.swift */; };
+		B6E0A9C22C2DBD9D00DBFC29 /* MultiMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0A9C12C2DBD9D00DBFC29 /* MultiMapUITests.swift */; };
+		B6E0A9C42C2DBD9D00DBFC29 /* MultiMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0A9C32C2DBD9D00DBFC29 /* MultiMapUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6E0A9B42C2DBD9D00DBFC29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E0A99A2C2DBD9A00DBFC29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E0A9A12C2DBD9A00DBFC29;
+			remoteInfo = MultiMap;
+		};
+		B6E0A9BE2C2DBD9D00DBFC29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6E0A99A2C2DBD9A00DBFC29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E0A9A12C2DBD9A00DBFC29;
+			remoteInfo = MultiMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6E0A9A22C2DBD9A00DBFC29 /* MultiMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E0A9A52C2DBD9A00DBFC29 /* MultiMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiMapApp.swift; sourceTree = "<group>"; };
+		B6E0A9A72C2DBD9A00DBFC29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6E0A9A92C2DBD9C00DBFC29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6E0A9AC2C2DBD9C00DBFC29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6E0A9AE2C2DBD9C00DBFC29 /* MultiMap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MultiMap.entitlements; sourceTree = "<group>"; };
+		B6E0A9B32C2DBD9D00DBFC29 /* MultiMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E0A9B72C2DBD9D00DBFC29 /* MultiMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiMapTests.swift; sourceTree = "<group>"; };
+		B6E0A9BD2C2DBD9D00DBFC29 /* MultiMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E0A9C12C2DBD9D00DBFC29 /* MultiMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiMapUITests.swift; sourceTree = "<group>"; };
+		B6E0A9C32C2DBD9D00DBFC29 /* MultiMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6E0A99F2C2DBD9A00DBFC29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E0A9B02C2DBD9D00DBFC29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E0A9BA2C2DBD9D00DBFC29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6E0A9992C2DBD9A00DBFC29 = {
+			isa = PBXGroup;
+			children = (
+				B6E0A9A42C2DBD9A00DBFC29 /* MultiMap */,
+				B6E0A9B62C2DBD9D00DBFC29 /* MultiMapTests */,
+				B6E0A9C02C2DBD9D00DBFC29 /* MultiMapUITests */,
+				B6E0A9A32C2DBD9A00DBFC29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6E0A9A32C2DBD9A00DBFC29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6E0A9A22C2DBD9A00DBFC29 /* MultiMap.app */,
+				B6E0A9B32C2DBD9D00DBFC29 /* MultiMapTests.xctest */,
+				B6E0A9BD2C2DBD9D00DBFC29 /* MultiMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6E0A9A42C2DBD9A00DBFC29 /* MultiMap */ = {
+			isa = PBXGroup;
+			children = (
+				B6E0A9A52C2DBD9A00DBFC29 /* MultiMapApp.swift */,
+				B6E0A9A72C2DBD9A00DBFC29 /* ContentView.swift */,
+				B6E0A9A92C2DBD9C00DBFC29 /* Assets.xcassets */,
+				B6E0A9AE2C2DBD9C00DBFC29 /* MultiMap.entitlements */,
+				B6E0A9AB2C2DBD9C00DBFC29 /* Preview Content */,
+			);
+			path = MultiMap;
+			sourceTree = "<group>";
+		};
+		B6E0A9AB2C2DBD9C00DBFC29 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6E0A9AC2C2DBD9C00DBFC29 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6E0A9B62C2DBD9D00DBFC29 /* MultiMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6E0A9B72C2DBD9D00DBFC29 /* MultiMapTests.swift */,
+			);
+			path = MultiMapTests;
+			sourceTree = "<group>";
+		};
+		B6E0A9C02C2DBD9D00DBFC29 /* MultiMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6E0A9C12C2DBD9D00DBFC29 /* MultiMapUITests.swift */,
+				B6E0A9C32C2DBD9D00DBFC29 /* MultiMapUITestsLaunchTests.swift */,
+			);
+			path = MultiMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6E0A9A12C2DBD9A00DBFC29 /* MultiMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E0A9C72C2DBD9D00DBFC29 /* Build configuration list for PBXNativeTarget "MultiMap" */;
+			buildPhases = (
+				B6E0A99E2C2DBD9A00DBFC29 /* Sources */,
+				B6E0A99F2C2DBD9A00DBFC29 /* Frameworks */,
+				B6E0A9A02C2DBD9A00DBFC29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiMap;
+			productName = MultiMap;
+			productReference = B6E0A9A22C2DBD9A00DBFC29 /* MultiMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6E0A9B22C2DBD9D00DBFC29 /* MultiMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E0A9CA2C2DBD9D00DBFC29 /* Build configuration list for PBXNativeTarget "MultiMapTests" */;
+			buildPhases = (
+				B6E0A9AF2C2DBD9D00DBFC29 /* Sources */,
+				B6E0A9B02C2DBD9D00DBFC29 /* Frameworks */,
+				B6E0A9B12C2DBD9D00DBFC29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6E0A9B52C2DBD9D00DBFC29 /* PBXTargetDependency */,
+			);
+			name = MultiMapTests;
+			productName = MultiMapTests;
+			productReference = B6E0A9B32C2DBD9D00DBFC29 /* MultiMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6E0A9BC2C2DBD9D00DBFC29 /* MultiMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E0A9CD2C2DBD9D00DBFC29 /* Build configuration list for PBXNativeTarget "MultiMapUITests" */;
+			buildPhases = (
+				B6E0A9B92C2DBD9D00DBFC29 /* Sources */,
+				B6E0A9BA2C2DBD9D00DBFC29 /* Frameworks */,
+				B6E0A9BB2C2DBD9D00DBFC29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6E0A9BF2C2DBD9D00DBFC29 /* PBXTargetDependency */,
+			);
+			name = MultiMapUITests;
+			productName = MultiMapUITests;
+			productReference = B6E0A9BD2C2DBD9D00DBFC29 /* MultiMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6E0A99A2C2DBD9A00DBFC29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B6E0A9A12C2DBD9A00DBFC29 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					B6E0A9B22C2DBD9D00DBFC29 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B6E0A9A12C2DBD9A00DBFC29;
+					};
+					B6E0A9BC2C2DBD9D00DBFC29 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B6E0A9A12C2DBD9A00DBFC29;
+					};
+				};
+			};
+			buildConfigurationList = B6E0A99D2C2DBD9A00DBFC29 /* Build configuration list for PBXProject "MultiMap" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6E0A9992C2DBD9A00DBFC29;
+			productRefGroup = B6E0A9A32C2DBD9A00DBFC29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6E0A9A12C2DBD9A00DBFC29 /* MultiMap */,
+				B6E0A9B22C2DBD9D00DBFC29 /* MultiMapTests */,
+				B6E0A9BC2C2DBD9D00DBFC29 /* MultiMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6E0A9A02C2DBD9A00DBFC29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E0A9AD2C2DBD9C00DBFC29 /* Preview Assets.xcassets in Resources */,
+				B6E0A9AA2C2DBD9C00DBFC29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E0A9B12C2DBD9D00DBFC29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E0A9BB2C2DBD9D00DBFC29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6E0A99E2C2DBD9A00DBFC29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E0A9A82C2DBD9A00DBFC29 /* ContentView.swift in Sources */,
+				B6E0A9A62C2DBD9A00DBFC29 /* MultiMapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E0A9AF2C2DBD9D00DBFC29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E0A9B82C2DBD9D00DBFC29 /* MultiMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E0A9B92C2DBD9D00DBFC29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E0A9C42C2DBD9D00DBFC29 /* MultiMapUITestsLaunchTests.swift in Sources */,
+				B6E0A9C22C2DBD9D00DBFC29 /* MultiMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6E0A9B52C2DBD9D00DBFC29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E0A9A12C2DBD9A00DBFC29 /* MultiMap */;
+			targetProxy = B6E0A9B42C2DBD9D00DBFC29 /* PBXContainerItemProxy */;
+		};
+		B6E0A9BF2C2DBD9D00DBFC29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E0A9A12C2DBD9A00DBFC29 /* MultiMap */;
+			targetProxy = B6E0A9BE2C2DBD9D00DBFC29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6E0A9C52C2DBD9D00DBFC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6E0A9C62C2DBD9D00DBFC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B6E0A9C82C2DBD9D00DBFC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MultiMap/MultiMap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultiMap/Preview Content\"";
+				DEVELOPMENT_TEAM = ABK52CX7TU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.MultiMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B6E0A9C92C2DBD9D00DBFC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MultiMap/MultiMap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultiMap/Preview Content\"";
+				DEVELOPMENT_TEAM = ABK52CX7TU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.MultiMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B6E0A9CB2C2DBD9D00DBFC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABK52CX7TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.MultiMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MultiMap";
+			};
+			name = Debug;
+		};
+		B6E0A9CC2C2DBD9D00DBFC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABK52CX7TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.MultiMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MultiMap";
+			};
+			name = Release;
+		};
+		B6E0A9CE2C2DBD9D00DBFC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABK52CX7TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.MultiMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MultiMap;
+			};
+			name = Debug;
+		};
+		B6E0A9CF2C2DBD9D00DBFC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABK52CX7TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.MultiMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MultiMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6E0A99D2C2DBD9A00DBFC29 /* Build configuration list for PBXProject "MultiMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E0A9C52C2DBD9D00DBFC29 /* Debug */,
+				B6E0A9C62C2DBD9D00DBFC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E0A9C72C2DBD9D00DBFC29 /* Build configuration list for PBXNativeTarget "MultiMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E0A9C82C2DBD9D00DBFC29 /* Debug */,
+				B6E0A9C92C2DBD9D00DBFC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E0A9CA2C2DBD9D00DBFC29 /* Build configuration list for PBXNativeTarget "MultiMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E0A9CB2C2DBD9D00DBFC29 /* Debug */,
+				B6E0A9CC2C2DBD9D00DBFC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E0A9CD2C2DBD9D00DBFC29 /* Build configuration list for PBXNativeTarget "MultiMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E0A9CE2C2DBD9D00DBFC29 /* Debug */,
+				B6E0A9CF2C2DBD9D00DBFC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6E0A99A2C2DBD9A00DBFC29 /* Project object */;
+}
