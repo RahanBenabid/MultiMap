@@ -11,6 +11,7 @@ import MapKit
 struct ContentView: View {
     
     @State private var locations = [Location]()
+    @State private var twice: Bool = false
     @AppStorage("searchText") private var searchText = ""
     @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 51.507222, longitude: -0.1275), span:  MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
     @State private var selectedLocations = Set<Location>()
@@ -18,16 +19,28 @@ struct ContentView: View {
     // handles searching
     func runSearch() {
         let searchRequest = MKLocalSearch.Request()
+        
+        
         searchRequest.naturalLanguageQuery = searchText
         //searchRequest.region = region /// does something idk lol, add later and see
         
         let search = MKLocalSearch(request: searchRequest)
+            
         search.start { response, error in
             guard let response = response else { return }   // we make sure we get a response
             guard let item = response.mapItems.first else { return }    // give us the top research hit
-            guard let itemName = item.name, let itemLocation = item.placemark.location else { return }
+            guard let itemName = item.name, let itemLocation = item.placemark.location, let itemCountry = item.placemark.country else { return }
             
-            let newLocation = Location(name: itemName, latitude: itemLocation.coordinate.latitude, longitude: itemLocation.coordinate.longitude)
+            let newLocation = Location(name: itemName, latitude: itemLocation.coordinate.latitude, longitude: itemLocation.coordinate.longitude, country: itemCountry)
+            
+            locations.contains { Location in
+                if (Location.name == newLocation.name) {
+                    twice = true
+                    return false
+                }
+                return true
+            }
+                
             locations.append(newLocation)
             selectedLocations = [newLocation]
             searchText = ""
@@ -59,6 +72,7 @@ struct ContentView: View {
                     delete(location)
                 }
             }
+            .alert("You entered this location already!", isPresented: $twice) {}
             
             Map(coordinateRegion: $region, annotationItems: locations) { location in
                 MapAnnotation(coordinate: location.coordinate) {
