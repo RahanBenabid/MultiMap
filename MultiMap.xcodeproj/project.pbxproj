@@ -14,6 +14,7 @@
 		B6E0A9B82C2DBD9D00DBFC29 /* MultiMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0A9B72C2DBD9D00DBFC29 /* MultiMapTests.swift */; };
 		B6E0A9C22C2DBD9D00DBFC29 /* MultiMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0A9C12C2DBD9D00DBFC29 /* MultiMapUITests.swift */; };
 		B6E0A9C42C2DBD9D00DBFC29 /* MultiMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0A9C32C2DBD9D00DBFC29 /* MultiMapUITestsLaunchTests.swift */; };
+		B6E0A9D12C2DC94000DBFC29 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0A9D02C2DC94000DBFC29 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B6E0A9BD2C2DBD9D00DBFC29 /* MultiMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E0A9C12C2DBD9D00DBFC29 /* MultiMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiMapUITests.swift; sourceTree = "<group>"; };
 		B6E0A9C32C2DBD9D00DBFC29 /* MultiMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6E0A9D02C2DC94000DBFC29 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				B6E0A9A52C2DBD9A00DBFC29 /* MultiMapApp.swift */,
 				B6E0A9A72C2DBD9A00DBFC29 /* ContentView.swift */,
+				B6E0A9D02C2DC94000DBFC29 /* Location.swift */,
 				B6E0A9A92C2DBD9C00DBFC29 /* Assets.xcassets */,
 				B6E0A9AE2C2DBD9C00DBFC29 /* MultiMap.entitlements */,
 				B6E0A9AB2C2DBD9C00DBFC29 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6E0A9A82C2DBD9A00DBFC29 /* ContentView.swift in Sources */,
+				B6E0A9D12C2DC94000DBFC29 /* Location.swift in Sources */,
 				B6E0A9A62C2DBD9A00DBFC29 /* MultiMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
